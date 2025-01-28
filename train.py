@@ -2,7 +2,7 @@ import torch
 from torch import optim
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
-from model import Net
+from model import CNN
 from utils import get_device
 
 def train(model, device, train_loader, optimizer, criterion, epoch):

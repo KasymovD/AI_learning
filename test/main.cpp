@@ -3,67 +3,71 @@
 #include <iostream>
 #include <vector>
 #include <filesystem>
+#include <iomanip>
 
 using namespace cv;
 using namespace cv::dnn;
 using namespace std;
 namespace fs = std::filesystem;
 
-Net createCNN() {
-    Net cnn;
+Net buildCNNModel() {
+    Net model;
+    
+    model.addLayerToPrev("input", "Input", LayerParams());
 
-    cnn.addLayerToPrev("input", "Input", LayerParams());
+    LayerParams convParams;
+    convParams.set("kernel_size", 3);
+    convParams.set("num_output", 32);
+    convParams.set("pad", 1);
+    model.addLayerToPrev("conv1", "Convolution", convParams);
 
-    LayerParams conv1Params;
-    conv1Params.set("kernel_size", 3);
-    conv1Params.set("num_output", 16);
-    conv1Params.set("pad", 1);
-    cnn.addLayerToPrev("conv1", "Convolution", conv1Params);
+    model.addLayerToPrev("relu1", "ReLU", LayerParams());
 
-    cnn.addLayerToPrev("relu1", "ReLU", LayerParams());
-
-    LayerParams pool1Params;
-    pool1Params.set("kernel_size", 2);
-    pool1Params.set("stride", 2);
-    cnn.addLayerToPrev("pool1", "Pooling", pool1Params);
+    LayerParams poolParams;
+    poolParams.set("kernel_size", 2);
+    poolParams.set("stride", 2);
+    model.addLayerToPrev("pool1", "Pooling", poolParams);
 
     LayerParams fcParams;
     fcParams.set("num_output", 10);
-    cnn.addLayerToPrev("fc", "InnerProduct", fcParams);
+    model.addLayerToPrev("fc", "InnerProduct", fcParams);
 
-    cnn.addLayerToPrev("softmax", "Softmax", LayerParams());
+    model.addLayerToPrev("softmax", "Softmax", LayerParams());
 
-    return cnn;
+    return model;
 }
 
-Mat preprocessImage(const string& imagePath) {
-    Mat inputImage = imread(imagePath, IMREAD_GRAYSCALE);
-    if (inputImage.empty()) {
-        throw runtime_error("Error loading image: " + imagePath);
+Mat preprocessImage(const string& path) {
+    Mat img = imread(path, IMREAD_GRAYSCALE);
+    if (img.empty()) {
+        throw runtime_error("Failed to load image: " + path);
     }
 
-    resize(inputImage, inputImage, Size(28, 28));
-    inputImage.convertTo(inputImage, CV_32F, 1.0 / 255.0);
-    return blobFromImage(inputImage);
+    resize(img, img, Size(28, 28));
+    img.convertTo(img, CV_32F, 1.0 / 255.0);
+    return blobFromImage(img);
 }
 
-void classifyImages(Net& cnn, const vector<string>& imagePaths) {
-    for (const auto& imagePath : imagePaths) {
+void displayResults(const string& imagePath, int predictedClass, double confidence) {
+    cout << left << setw(20) << "Image Path:" << imagePath << endl;
+    cout << left << setw(20) << "Predicted Class:" << predictedClass << endl;
+    cout << left << setw(20) << "Confidence:" << fixed << setprecision(4) << confidence << endl;
+    cout << string(40, '-') << endl;
+}
+
+void classify(Net& model, const vector<string>& images) {
+    for (const auto& path : images) {
         try {
-            Mat blob = preprocessImage(imagePath);
-            cnn.setInput(blob);
-            Mat output = cnn.forward();
+            Mat inputBlob = preprocessImage(path);
+            model.setInput(inputBlob);
+            Mat output = model.forward();
 
             Point classIdPoint;
             double confidence;
             minMaxLoc(output, nullptr, &confidence, nullptr, &classIdPoint);
-            int predictedClass = classIdPoint.x;
-
-            cout << "Image: " << imagePath << endl;
-            cout << "Predicted class: " << predictedClass << endl;
-            cout << "Confidence: " << confidence << endl << endl;
-        } catch (const exception& e) {
-            cerr << e.what() << endl;
+            displayResults(path, classIdPoint.x, confidence);
+        } catch (const exception& ex) {
+            cerr << "Error: " << ex.what() << endl;
         }
     }
 }
@@ -74,13 +78,9 @@ int main(int argc, char** argv) {
         return -1;
     }
 
-    vector<string> imagePaths;
-    for (int i = 1; i < argc; ++i) {
-        imagePaths.push_back(argv[i]);
-    }
-
-    Net cnn = createCNN();
-    classifyImages(cnn, imagePaths);
+    vector<string> imagePaths(argv + 1, argv + argc);
+    Net model = buildCNNModel();
+    classify(model, imagePaths);
 
     return 0;
 }

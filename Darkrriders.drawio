@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.5">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2229" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2780" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -204,18 +204,6 @@
         </mxCell>
         <mxCell id="4se0mU8CYs9TbdrPb7_I-203" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;NLP&amp;nbsp;❌&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=#CC99FF;labelBorderColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="695" y="1018" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4se0mU8CYs9TbdrPb7_I-204" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1280" y="631" width="370" height="485" as="geometry" />
-        </mxCell>
-        <mxCell id="4se0mU8CYs9TbdrPb7_I-205" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Legend&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1280" y="631" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4se0mU8CYs9TbdrPb7_I-206" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=#CC99FF;textShadow=0;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1265" y="691" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4se0mU8CYs9TbdrPb7_I-207" value="&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#ffffff&quot;&gt;Unknown&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;textShadow=0;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1170" y="691" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4se0mU8CYs9TbdrPb7_I-208" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;Computer&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Vision ✅&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=#CC99FF;labelBorderColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1073.75" y="896" width="110" height="30" as="geometry" />

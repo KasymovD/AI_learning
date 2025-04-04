@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.5">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="5987" dy="1270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3352" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -364,194 +364,73 @@
         <mxCell id="4se0mU8CYs9TbdrPb7_I-266" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;02.16.2025&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=#FFFAFA;labelBorderColor=#000000;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="1409" y="-45" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-2" value="OSINT - Open Source Intelligence" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-3231" y="-96" width="260" height="78" as="geometry" />
+        <mxCell id="v-ghdox6K27Naifyxvr8-102" value="1. Sock Puppet Accounts" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2025" y="374" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-3" value="Definition: Gathering publicly available data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-3231" y="32" width="260" height="78" as="geometry" />
+        <mxCell id="v-ghdox6K27Naifyxvr8-103" value="Definition: Fake digital identity used to perform investigations without revealing the researcher&#39;s true identity. Essential for blending into online communities and avoiding detection." style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-2170" y="568.5" width="260" height="222" as="geometry" />
         </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-4" value="Websites Used" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-3916" y="160" width="162" height="54" as="geometry" />
+        <mxCell id="v-ghdox6K27Naifyxvr8-104" value="Methods:&#xa;    - Create full profile: name, photo, backstory&#xa;    - Use different browser profiles or virtual machines&#xa;    - Avoid reuse of real emails, usernames&#xa;    - Connect through VPN or Tor to hide IP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1870" y="562" width="260" height="246" as="geometry" />
         </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-5" value="Social Media: Twitter, LinkedIn, Facebook" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-4120" y="264" width="260" height="78" as="geometry" />
+        <mxCell id="v-ghdox6K27Naifyxvr8-105" value="2. Data Collection" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1405" y="374" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-6" value="Government and Public Records" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-3810" y="264" width="260" height="78" as="geometry" />
+        <mxCell id="v-ghdox6K27Naifyxvr8-106" value="Definition: The process of gathering useful information from publicly available sources (websites, forums, social media, documents)." style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="598" width="260" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-7" value="Search Engines and Archives" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-3500" y="264" width="260" height="78" as="geometry" />
+        <mxCell id="v-ghdox6K27Naifyxvr8-107" value="Methods:&#xa;    - Manual browsing and screenshotting&#xa;    - Use OSINT tools like Maltego, Spiderfoot&#xa;    - Download and extract metadata (EXIF, PDF info)&#xa;    - Passive recon (WHOIS, DNS records, Shodan scans)&#xa;    - Track usernames across platforms (e.g., whatsmyname.app)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1250" y="489" width="280" height="355" as="geometry" />
         </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-8" value="Key Methods" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-2441" y="160" width="149" height="54" as="geometry" />
+        <mxCell id="v-ghdox6K27Naifyxvr8-108" value="3. Advanced Searching" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-785" y="374" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-9" value="1. Sock Puppet Accounts" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-3190" y="264" width="260" height="78" as="geometry" />
+        <mxCell id="v-ghdox6K27Naifyxvr8-109" value="Definition: Enhancing search capabilities using special queries, operators, and techniques to uncover deeper or hidden data not easily accessible." style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="598" width="260" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-10" value="Create a Fake Identity" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-3615" y="404" width="220" height="54" as="geometry" />
+        <mxCell id="v-ghdox6K27Naifyxvr8-110" value="Methods:&#xa;    - Google Dorks (e.g., inurl:, intitle:, ext:)&#xa;    - Search site-specific (site:example.com)&#xa;    - Find specific file types (filetype:pdf)&#xa;    - Use Wayback Machine or Google Cache&#xa;    - Translate &amp; search in local languages&#xa;    - Use alternative search engines like Yandex, DuckDuckGo" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="502" width="260" height="366" as="geometry" />
         </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-11" value="Use VPN and Unique Browser Fingerprint" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-3345" y="392" width="260" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-12" value="Engage Without Tripping Detection" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-3035" y="392" width="260" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-13" value="2. Data Collection" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-2341" y="264" width="260" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-14" value="Manual Browsing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-2725" y="404" width="179" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-15" value="Use Scraping Tools: Maltego, Spiderfoot" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-2496" y="392" width="260" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-16" value="Passive Recon: WHOIS, DNS, Metadata" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-2186" y="392" width="260" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-17" value="3. Advanced Searching" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1501" y="264" width="260" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-18" value="Google Dorks" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1876" y="404" width="153" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-19" value="Site-specific Search: site:example.com" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1673" y="392" width="260" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-20" value="Filetype and Index Search: filetype:pdf" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1363" y="392" width="260" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-21" value="Ethical and Legal Considerations" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1053" y="392" width="260" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-2" target="v-ghdox6K27Naifyxvr8-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.65;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-3" target="v-ghdox6K27Naifyxvr8-4">
+        <mxCell id="v-ghdox6K27Naifyxvr8-111" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.14;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-102" target="v-ghdox6K27Naifyxvr8-103">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-3835" y="135" />
+              <mxPoint x="-2050" y="477" />
+            </Array>
+            <mxPoint x="-2050" y="574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v-ghdox6K27Naifyxvr8-112" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-102" target="v-ghdox6K27Naifyxvr8-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1740" y="477" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-4" target="v-ghdox6K27Naifyxvr8-5">
+        <mxCell id="v-ghdox6K27Naifyxvr8-113" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.14;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-105" target="v-ghdox6K27Naifyxvr8-106">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-3990" y="239" />
+              <mxPoint x="-1430" y="477" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-4" target="v-ghdox6K27Naifyxvr8-6">
+        <mxCell id="v-ghdox6K27Naifyxvr8-114" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-105" target="v-ghdox6K27Naifyxvr8-107">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-3680" y="239" />
+              <mxPoint x="-1120" y="477" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.67;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-4" target="v-ghdox6K27Naifyxvr8-7">
+        <mxCell id="v-ghdox6K27Naifyxvr8-115" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.14;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-108" target="v-ghdox6K27Naifyxvr8-109">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-3370" y="239" />
+              <mxPoint x="-810" y="477" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.65;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-3" target="v-ghdox6K27Naifyxvr8-8">
+        <mxCell id="v-ghdox6K27Naifyxvr8-116" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-108" target="v-ghdox6K27Naifyxvr8-110">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2366" y="135" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.6;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-8" target="v-ghdox6K27Naifyxvr8-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-3060" y="239" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.74;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-9" target="v-ghdox6K27Naifyxvr8-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-3505" y="367" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.14;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-9" target="v-ghdox6K27Naifyxvr8-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-3215" y="367" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-9" target="v-ghdox6K27Naifyxvr8-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-2905" y="367" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.96;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-8" target="v-ghdox6K27Naifyxvr8-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-2211" y="239" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-13" target="v-ghdox6K27Naifyxvr8-14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-2636" y="367" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.14;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-13" target="v-ghdox6K27Naifyxvr8-15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-2366" y="367" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-13" target="v-ghdox6K27Naifyxvr8-16">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-2056" y="367" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.57;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-8" target="v-ghdox6K27Naifyxvr8-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-1371" y="239" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-17" target="v-ghdox6K27Naifyxvr8-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-1800" y="367" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.1;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-17" target="v-ghdox6K27Naifyxvr8-19">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-1543" y="367" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-17" target="v-ghdox6K27Naifyxvr8-20">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-1233" y="367" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v-ghdox6K27Naifyxvr8-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.74;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="v-ghdox6K27Naifyxvr8-17" target="v-ghdox6K27Naifyxvr8-21">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-923" y="367" />
+              <mxPoint x="-500" y="477" />
             </Array>
           </mxGeometry>
         </mxCell>

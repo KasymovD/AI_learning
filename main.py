@@ -1,39 +1,30 @@
 import torch
+import torch.nn as nn
+import torch.optim as optim
 
-a = torch.tensor([[1., 2., 3.],
-                  [4., 5., 6.]], requires_grad=True)
+x = torch.randn(100, 10)
+y = torch.randint(0, 2, (100,))
 
-b = torch.tensor([[7., 8.],
-                  [9., 10.],
-                  [11., 12.]], requires_grad=True)
+model = nn.Sequential(
+    nn.Linear(10, 32),
+    nn.ReLU(),
+    nn.Linear(32, 2)
+)
 
-c = a @ b
-d = torch.sum(c)
+loss_fn = nn.CrossEntropyLoss()
+optimizer = optim.SGD(model.parameters(), lr=0.01)
 
-print("a:", a)
-print("b:", b)
-print("c:", c)
-print("d:", d)
+for epoch in range(5):
+    y_pred = model(x)
+    loss = loss_fn(y_pred, y)
+    optimizer.zero_grad()
+    loss.backward()
+    optimizer.step()
+    print(f"Epoch {epoch+1}, Loss: {loss.item()}")
 
-d.backward()
-
-print("Grad a:", a.grad)
-print("Grad b:", b.grad)
-
-x = torch.randn(3, 3)
-print("x:", x)
-print("x mean:", x.mean())
-print("x std:", x.std())
-
-x_reshaped = x.view(1, 9)
-print("x reshaped:", x_reshaped)
-
-y = torch.linspace(0, 1, steps=5)
-print("y:", y)
-
-z = torch.rand((2, 2))
-print("z:", z)
-
-device = "cuda" if torch.cuda.is_available() else "cpu"
-t = torch.ones((3, 3), device=device)
-print("t:", t)
+test_input = torch.randn(1, 10)
+output = model(test_input)
+prediction = torch.argmax(output, dim=1)
+print("Test input:", test_input)
+print("Output:", output)
+print("Prediction:", prediction)
